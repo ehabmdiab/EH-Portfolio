@@ -1,0 +1,103 @@
+.container{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    width:100%;
+    height: inherit;
+    padding :0px 20px;
+    flex:1;
+}
+
+.navbar{
+background-color: var(--yellow-theme-nav-background-color);
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size:  1.5rem;
+position: sticky;
+}
+.logo{
+    height:80px;
+    color:var(--yellow-theme-main-color);
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    align-items:center;
+}
+.logo a{
+    color:var(--yellow-theme-main-color);
+    text-decoration: none !important;
+}
+.links{
+    display:flex;
+    list-style: none;
+    text-align: center;
+}
+.links li {
+    line-height: 40px;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+}
+.links li::after{
+    content:"";
+    display:block;
+    width:0;
+    height:3px;
+    background:transparent;
+    transition:all .5s ease ;
+}
+.links li:hover::after{
+    width:100%;
+    background:var(--yellow-theme-main-color);
+}
+.links li a{
+    text-decoration: none;
+    color:var(--yellow-theme-main-color);
+    padding: 0.5rem;
+}
+
+.nav-icon{
+    display:none;
+    color:var(--yellow-theme-main-color);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .links{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+       justify-content: center;
+         position: absolute;
+            top: 80px;
+             left:-110%;
+            opacity: 1;
+            transition: all 0.5s ease;
+
+            &.active{
+                background-color: #181818;
+                left:0;
+                opacity: 1;
+                transition: all 0.5s ease;
+                z-index: 1;
+            }
+            li{
+                border-bottom: 1px solid #282828;
+                margin:0;
+                padding:20px 0;
+            }
+    }
+    .links li::after{
+        display:none;
+    }
+    .links li{
+        margin:0;
+        padding: 20px 0;
+         border-bottom: 1px solid #282828;
+    }
+    .nav-icon{
+        display:block;
+        cursor: pointer;
+    }
+}
