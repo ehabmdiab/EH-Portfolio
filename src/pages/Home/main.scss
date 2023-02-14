@@ -16,7 +16,13 @@
     margin: 0;
     padding: 0;
     line-height: 1.5;
+    white-space: nowrap;
+    overflow: hidden;
     color: var(--yellow-theme-main-color);
+}
+.text h1{
+    animation:typing 2.5s steps(30-end);
+
 }
 .button{
     margin-top:40px;
@@ -51,6 +57,11 @@
     height:100%;
     object-fit: cover;
     border-radius: 50%;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
 }
 
 @keyframes morphing {
