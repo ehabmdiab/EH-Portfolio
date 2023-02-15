@@ -19,11 +19,9 @@
     white-space: nowrap;
     overflow: hidden;
     color: var(--yellow-theme-main-color);
+    animation:typing 2.5s steps(30,end) ;
 }
-.text h1{
-    animation:typing 2.5s steps(30-end);
 
-}
 .button{
     margin-top:40px;
 }
