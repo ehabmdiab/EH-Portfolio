@@ -17,7 +17,7 @@ const Resume = () => {
       description: "from 2021 to 2022",
     },
     {
-      title: "Bechalor of Commerce",
+      title: "bachelor of Commerce",
       subtitle: "from University of Alexandria,Egypt . Accounting Major",
       description: "from 2017 to 2021",
     },

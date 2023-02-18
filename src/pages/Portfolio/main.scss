@@ -158,6 +158,10 @@
   background-color: black;
   color: white;
 }
+.dimmed {
+  pointer-events: none;
+  background-color: #ccc !important;
+}
 .hover button a {
   text-decoration: none;
   color: white;

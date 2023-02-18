@@ -42,7 +42,7 @@ const Portfolio = () => {
             <figure className="shadow">
               <img src={findx} />
               <div className="hover">
-                <button>
+                <button className="dimmed">
                   <a href="" target="_blank">
                     Visit
                   </a>
