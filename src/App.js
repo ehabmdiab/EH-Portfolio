@@ -25,11 +25,12 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar />
+
       {RenderParticles && (
         <Particles id="particles" options={particles} init={handleInit} />
       )}
 
-      <Navbar />
       <Routes>
         <Route path="/home" element={<Home />} exact />
         <Route path="/" element={<Navigate to="/home" />} exact />
