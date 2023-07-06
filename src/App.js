@@ -40,6 +40,7 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/Portfolio" element={<Portfolio />} />
+        <Route path="*" element={<Navigate to="/home" />} />
       </Routes>
     </div>
   );
