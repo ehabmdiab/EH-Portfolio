@@ -32,9 +32,8 @@ function App() {
       )}
 
       <Routes>
-        <Route path="/home" element={<Home />} exact />
-        <Route path="/" element={<Navigate to="/home" />} exact />
-        <Route path="/EH-Portfolio" element={<Navigate to="/home" />} exact />
+        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Navigate to="/home" />} index />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/skills" element={<Skills />} />
