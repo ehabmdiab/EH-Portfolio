@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.c43e2a4c.css",
-    "main.js": "/static/js/main.b2009542.js",
-    "static/js/787.6699f29d.chunk.js": "/static/js/787.6699f29d.chunk.js",
-    "static/media/temp2.PNG": "/static/media/temp2.7bc3779b4a9cfab81c19.PNG",
-    "static/media/findx.PNG": "/static/media/findx.80be38464542d5870a61.PNG",
-    "static/media/temp1.PNG": "/static/media/temp1.cbe777d5fabdbc9c9757.PNG",
-    "static/media/Pharmacy.PNG": "/static/media/Pharmacy.1f5cdc10a31091c1874b.PNG",
-    "static/media/temp3.PNG": "/static/media/temp3.74812d2e06f1b901b109.PNG",
-    "static/media/image.jpg": "/static/media/image.f785ceae8327132f8a96.jpg",
-    "static/media/hangman.PNG": "/static/media/hangman.a150909a1f8bfabd2572.PNG",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.c43e2a4c.css.map": "/static/css/main.c43e2a4c.css.map",
-    "main.b2009542.js.map": "/static/js/main.b2009542.js.map",
-    "787.6699f29d.chunk.js.map": "/static/js/787.6699f29d.chunk.js.map"
+    "main.css": "/EH-Portfolio/static/css/main.c43e2a4c.css",
+    "main.js": "/EH-Portfolio/static/js/main.ee3d21e3.js",
+    "static/js/787.6699f29d.chunk.js": "/EH-Portfolio/static/js/787.6699f29d.chunk.js",
+    "static/media/temp2.PNG": "/EH-Portfolio/static/media/temp2.7bc3779b4a9cfab81c19.PNG",
+    "static/media/findx.PNG": "/EH-Portfolio/static/media/findx.80be38464542d5870a61.PNG",
+    "static/media/temp1.PNG": "/EH-Portfolio/static/media/temp1.cbe777d5fabdbc9c9757.PNG",
+    "static/media/Pharmacy.PNG": "/EH-Portfolio/static/media/Pharmacy.1f5cdc10a31091c1874b.PNG",
+    "static/media/temp3.PNG": "/EH-Portfolio/static/media/temp3.74812d2e06f1b901b109.PNG",
+    "static/media/image.jpg": "/EH-Portfolio/static/media/image.f785ceae8327132f8a96.jpg",
+    "static/media/hangman.PNG": "/EH-Portfolio/static/media/hangman.a150909a1f8bfabd2572.PNG",
+    "static/media/logo.svg": "/EH-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/EH-Portfolio/index.html",
+    "main.c43e2a4c.css.map": "/EH-Portfolio/static/css/main.c43e2a4c.css.map",
+    "main.ee3d21e3.js.map": "/EH-Portfolio/static/js/main.ee3d21e3.js.map",
+    "787.6699f29d.chunk.js.map": "/EH-Portfolio/static/js/787.6699f29d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c43e2a4c.css",
-    "static/js/main.b2009542.js"
+    "static/js/main.ee3d21e3.js"
   ]
 }
